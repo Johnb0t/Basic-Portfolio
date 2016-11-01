@@ -5,6 +5,14 @@ header {
 	background: white;
 	padding: 20px;
 }
+.container {
+	position: relative;
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
 #name {
 	float: left;
 	background: #08afa7;
@@ -12,16 +20,22 @@ header {
 	color: white;
 	font-size: 24px;
 }
-ul {
-	list-style-type: none;
-}
-ul a {
-	text-align: right;
+.nav {
 	display: inline;
 }
 footer {
+	clear: both;
 	text-align: center;
 	background: grey;
 	color: white;
 	padding: 20px;
+	border-top-width: 20px;
+	border-top: #08afa7;
+	border-top-style: solid;
+	position: fixed;
+
+}
+.nav {
+	list-style: none;
+	
 }
