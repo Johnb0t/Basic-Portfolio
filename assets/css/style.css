@@ -111,12 +111,6 @@ h3 {
 form {
 	padding: 10px;
 }
-#image2 {
-	float:left;
-}
-#image1 {
-	float: left;
-}
 .message {
 	width: 400px;
 	height: 300px;
@@ -160,4 +154,7 @@ li a:hover {
 	background: white;
 	border-left-width: 0px;
 	padding: 20px;
+}
+p {
+	float: right;
 }
