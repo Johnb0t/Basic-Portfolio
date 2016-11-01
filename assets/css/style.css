@@ -1,27 +1,40 @@
 * {
 	box-sizing: border-box;
 }
-header {
-	background: white;
-	padding: 20px;
+body {
+	width: 960px;
+	height: 650px;
 }
 .container {
 	position: relative;
-	width: 1200px;
 	overflow: hidden;
 	margin: 0 auto;
 	left: 0;
 	right: 0;
 }
-#name {
-	float: left;
+.nav {
+	text-align: right;
+	height: 72px;
+}
+li a {
+	display: inline;
+}
+h1 {
 	background: #08afa7;
 	padding: 20px;
 	color: white;
-	font-size: 24px;
+	font-size: 32px;
+	left: -40px;
+	float: left;
 }
-.nav {
-	display: inline;
+hr {
+	clear: both;
+}
+#contentheader {
+	height: 400px;
+	width: 400px;
+	clear: both;
+	float: left;
 }
 footer {
 	clear: both;
@@ -32,10 +45,14 @@ footer {
 	border-top-width: 20px;
 	border-top: #08afa7;
 	border-top-style: solid;
-	position: fixed;
-
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
-.nav {
-	list-style: none;
-	
+h2 {
+	font-size: 32px;
+	bottom: 0;
+}
+#sidebar {
+	float:left;
 }
