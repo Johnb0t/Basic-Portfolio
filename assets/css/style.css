@@ -131,7 +131,8 @@ li a:hover {
 	width: 600px;
 }
 #contentsection {
-	width: 600px;
+	float: left;
+	width: 650px;
 	height: 600px;
 	border-style: solid;
 	border-top-width: 40px;
@@ -144,9 +145,9 @@ li a:hover {
 }
 .portfoliopic {
 	padding: 20px;
+	float: left;
 }
 #sidebar2 {
-	clear:both;
 	float: left;
 	border-style: solid;
 	border-color: #dddddd;
@@ -156,5 +157,5 @@ li a:hover {
 	padding: 20px;
 }
 p {
-	float: right;
+	line-height: 30px;
 }
