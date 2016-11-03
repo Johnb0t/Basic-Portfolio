@@ -2,24 +2,22 @@
 	box-sizing: border-box;
 }
 body {
-	width: 960px;
-	height: 960px;
-}
-.container {
-	position: relative;
-	overflow: hidden;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	height: 960px;
 	background: #dddddd;
+}
+.container2 {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	background: white;
+	border-bottom: 2px solid #999;
 }
 .nav {
 	text-align: right;
 	height: 70px;
-	border-bottom-width: 2px;
+/*	border-bottom-width: 2px;
 	border-style: solid;
-	border-color: black;
+	border-color: black;*/
 	background: #ffffff;
 	position: relative;
 	width: 100%;
@@ -45,10 +43,10 @@ li a {
 h1 {
 	position: absolute;
 	background: #4aaaa5;
-	padding: 20px;
+	padding: 21px;
 	color: white;
 	font-size: 28px;
-	left: 60px;
+	left: 41px;
 	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
@@ -76,9 +74,9 @@ footer {
 	border-top-width: 20px;
 	border-top: #4aaaa5;
 	border-top-style: solid;
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
-	width: 960px;
+	/*width: 960px;*/
 }
 h2 {
 	font-size: 24px;
@@ -127,12 +125,13 @@ li a:hover {
 	
 }
 .portfolio {
-	height: 600px;
+	height: 820px;
 	width: 650px;
-	float: left;
+	clear: both;
 	border-width: 40px;
 	border-style: solid;
 	border-color: #dddddd;
+	float: left;
 }
 #contentsection {
 	float: left;
@@ -140,12 +139,12 @@ li a:hover {
 	height: 600px;
 	border-style: solid;
 	border-top-width: 40px;
-	border-left-width: 120px;
+	border-left-width: 40px;
 	border-right-width: 40px;
 	border-color: #dddddd;
 	background: white;
 	overflow: hidden;
-	padding: 20px;
+	padding: 20px; 
 }
 .portfoliopic {
 	padding: 20px;
@@ -162,8 +161,28 @@ li a:hover {
 }
 p {
 	line-height: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-h4 {
-	
+
+.work h4 {
+	font-size: 18px;
+	color: white;
+	background: #4aaaa5;
+	text-align: center;
+	padding: 20px;
+	width: 200px;
+	position: relative;
+	bottom: 94px;
+	left: 20px;
 }
+#image1 , #image2 , #image3 , #image4 , #image5 {
+	margin: 20px;
+
+}
+.work {
+	float: left;
+	height: 210px;
+}
+input {
+	text-decoration: none;
 }
