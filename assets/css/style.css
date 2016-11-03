@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	background: #dddddd;
+	background-image: url(../images/layout.png);
 }
 .container2 {
 	width: 960px;
@@ -59,11 +59,12 @@ hr {
 	width: 650px;
 	clear: both;
 	float: left;
-	border-style: solid;
+/*	border-style: solid;
 	border-color: #dddddd;
-	border-width: 40px;
+	border-width: 40px; */
 	background: white;
 	padding: 20px;
+	margin: 40px;
 }
 footer {
 	clear: both;
@@ -125,26 +126,26 @@ li a:hover {
 	
 }
 .portfolio {
-	height: 820px;
 	width: 650px;
 	clear: both;
-	border-width: 40px;
+/*	border-width: 40px;
 	border-style: solid;
-	border-color: #dddddd;
+	border-color: #dddddd; */
 	float: left;
+	margin: 40px;
 }
 #contentsection {
 	float: left;
 	width: 650px;
-	border-style: solid;
+/*	border-style: solid;
 	border-top-width: 40px;
 	border-left-width: 40px;
 	border-right-width: 40px;
-	border-color: #dddddd;
+	border-color: #dddddd; */
 	background: white;
 	overflow: hidden;
 	padding: 20px; 
-	margin-bottom: 40px;
+	margin: 40px;
 }
 .portfoliopic {
 	padding: 20px;
@@ -152,12 +153,13 @@ li a:hover {
 }
 #sidebar2 {
 	float: left;
-	border-style: solid;
+/*	border-style: solid;
 	border-color: #dddddd;
-	border-width: 40px;
+	border-width: 40px; */
 	background: white;
-	border-left-width: 0px;
+/*	border-left-width: 0px;  */
 	padding: 20px;
+	margin-top: 40px;
 }
 p {
 	line-height: 30px;
